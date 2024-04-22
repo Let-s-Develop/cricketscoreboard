@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+.team-details {
+  margin-top: 20px;
+}
+
+.team-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-info-box {
+  text-align: center;
+}
+
+.bowling-details {
+  margin-top: 20px;
+}
+
+.bowler-heading {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bowler-details {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.bowler-details p {
+  margin: 0;
+}
+
+.bowler-details input {
+  width: 60px;
+}
+
+/* Add more styling as needed */
+.team-details {
+  margin-top: 20px;
+}
+
+.team-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-info-box {
+  text-align: center;
+}
+
+.bowling-details {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td[contentEditable=true]:focus {
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+/* Add more styling as needed */
